@@ -50,3 +50,12 @@ function arrayOfArray(arr) {
     return newArray
 }
 console.log(arrayOfArray(myArray));
+
+
+//function to find the area of a rectangle
+let a = 3
+let b = 8
+function recArea(a,b) {
+    return a * b
+}
+console.log(recArea(a,b))
