@@ -34,6 +34,7 @@ function largeNumber(arr) {
 }
 console.log(largeNumber(myArray));
 
+//Another way
 
 function arrayOfArray(arr) {
     let newArray = []
