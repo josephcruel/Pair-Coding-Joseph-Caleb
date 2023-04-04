@@ -23,7 +23,7 @@
 // console.log(arrayNumber([1,2, "Joseph", 4,5, "Caleb"]))
 
 
-myArray = [[1,2,3],[4,5,6],[10,20,100]];
+myArray = [[1,2,3],[4,5,6],[10,20,5],[2000,4000,6000]];
 
 function largeNumber(arr) {
     let outputArray = []
@@ -33,3 +33,20 @@ function largeNumber(arr) {
     return outputArray
 }
 console.log(largeNumber(myArray));
+
+//Another way
+
+function arrayOfArray(arr) {
+    let newArray = []
+    for(let i = 0; i < arr.length; i++) {
+        let largest = arr[i][0]
+        for(let j = 0; j < arr[i].length; j++) {
+            if(arr[i][j]>largest) {
+                largest = arr[i][j]
+            }
+        }
+        newArray.push(largest)
+    }
+    return newArray
+}
+console.log(arrayOfArray(myArray));
