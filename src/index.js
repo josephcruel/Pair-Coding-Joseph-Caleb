@@ -23,39 +23,65 @@
 // console.log(arrayNumber([1,2, "Joseph", 4,5, "Caleb"]))
 
 
-myArray = [[1,2,3],[4,5,6],[10,20,5],[2000,4000,6000]];
+// myArray = [[1,2,3],[4,5,6],[10,20,5],[2000,4000,6000]];
 
-function largeNumber(arr) {
-    let outputArray = []
-    for(let i = 0; i < arr.length; i++) {
-        outputArray.push (Math.max(...arr[i]))
+// function largeNumber(arr) {
+//     let outputArray = []
+//     for(let i = 0; i < arr.length; i++) {
+//         outputArray.push (Math.max(...arr[i]))
+//     }
+//     return outputArray
+// }
+// console.log(largeNumber(myArray));
+
+// //Another way
+
+// function arrayOfArray(arr) {
+//     let newArray = []
+//     for(let i = 0; i < arr.length; i++) {
+//         let largest = arr[i][0]
+//         for(let j = 0; j < arr[i].length; j++) {
+//             if(arr[i][j]>largest) {
+//                 largest = arr[i][j]
+//             }
+//         }
+//         newArray.push(largest)
+//     }
+//     return newArray
+// }
+// console.log(arrayOfArray(myArray));
+
+
+// //function to find the area of a rectangle
+// let a = 3
+// let b = 8
+// function recArea(a,b) {
+//     return a * b
+// }
+// console.log(recArea(a,b))
+
+//Reverse Array
+
+let forwardsArray = [1,2,3,4,5,6,7]
+
+function reverseArray(arr){
+    let output = []
+    for (i = 0; i < arr.length; i++){
+        output.unshift(arr[i])
     }
-    return outputArray
+    return output
 }
-console.log(largeNumber(myArray));
+
+console.log(reverseArray(forwardsArray))
 
 //Another way
 
-function arrayOfArray(arr) {
-    let newArray = []
-    for(let i = 0; i < arr.length; i++) {
-        let largest = arr[i][0]
-        for(let j = 0; j < arr[i].length; j++) {
-            if(arr[i][j]>largest) {
-                largest = arr[i][j]
-            }
-        }
-        newArray.push(largest)
+function reverseArray(arr){
+    let output = []
+    for (i = arr.length; i > 0; i--){
+        output.push(arr[i])
     }
-    return newArray
+    return output
 }
-console.log(arrayOfArray(myArray));
 
-
-//function to find the area of a rectangle
-let a = 3
-let b = 8
-function recArea(a,b) {
-    return a * b
-}
-console.log(recArea(a,b))
+console.log(reverseArray(forwardsArray))

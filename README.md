@@ -20,3 +20,7 @@ Two solutions created, one using a nested for loop and the other using the math 
 Create a function that calculates the area of a rectangle
 
 One solution created using the length and width parameters.
+
+Create a function that reverses an array
+
+Two solutions created, one using unshift, the other using a reversed for loop.
