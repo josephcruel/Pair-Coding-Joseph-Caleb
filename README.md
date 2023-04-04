@@ -4,3 +4,4 @@
 **bold**
 ~~strikethrough~~<br>
 > blockquote
+normal text
