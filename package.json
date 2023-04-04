@@ -2,8 +2,9 @@
   "name": "pair-coding-joseph-caleb",
   "version": "1.0.0",
   "description": "*italics*\r **bold**\r ***italicaised bold***\r __underline__\r ~~strikethrough~~\r > blockquote",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
