@@ -15,6 +15,9 @@ Create a function that takes a 2D arrays (an array of arrays) with numbers and r
 
 arrayOfArrays = [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]] 
 
+<<<<<<< HEAD
+Two solutions created, one using a nested for loop and the other using the math module method.
+
 Two solutions created, one using a nested for loop and the other using the math module method.
 
 Create a function that calculates the area of a rectangle
