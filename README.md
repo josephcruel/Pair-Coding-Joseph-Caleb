@@ -1,8 +1,6 @@
-# Pair-Coding-Joseph-Caleb
-##SDV 503 week 7, 05/04/2023
+# Pair-Coding-Joseph-Caleb<br>
+##SDV 503 week 7, 05/04/2023<br>
 *italics*
 **bold**
-***italicaised bold***
-__underline__
-~~strikethrough~~
+~~strikethrough~~<br>
 > blockquote
