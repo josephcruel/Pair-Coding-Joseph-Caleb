@@ -12,3 +12,12 @@ function removeStrings(arr){
 }
 
 console.log(removeStrings(arrayOfStuff))
+
+
+//A different solution 
+
+function arrayNumber(arr) {
+    return arr.filter(i => typeof i == 'number')
+}
+
+console.log(arrayNumber([1,2, "Joseph", 4,5, "Caleb"]))
